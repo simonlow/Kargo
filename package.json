@@ -1,0 +1,23 @@
+{
+  "name": "kargo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "file.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/simonlow/Kargo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonlow/Kargo/issues"
+  },
+  "homepage": "https://github.com/simonlow/Kargo#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {}
+}
