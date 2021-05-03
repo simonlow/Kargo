@@ -1,4 +1,4 @@
-const stringArray = require('./main.js');
+const stringArray = require('./stringArray.js');
 
 let strs = process.argv;
 let newStrs = [];

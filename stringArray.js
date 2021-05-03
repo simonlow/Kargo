@@ -1,11 +1,11 @@
 function stringArray(arr) {
     let strs = '';
     for(let i = 0; i < arr.length; i++) {
-        let s = arr[i]+''; //make the number a string
+        let s = arr[i]+''; //making number a string
         let str = '';
         for(let j = 0; j < s.length; j++) {
             let dig = '';
-            switch(s.substring(j,j+1)) { //convert digit to word
+            switch(s.substring(j,j+1)) { //converting digit to word
                 case "0":
                     dig = "Zero";
                     break;
@@ -40,10 +40,10 @@ function stringArray(arr) {
                     dig = "nonumber";
                     break;
             }
-            str+=dig; //add the word-digits each time
+            str+=dig; //adding each digit to the number-word
         }
-        strs+= str; //add the full number-word
-        if (i < arr.length-1) { //check if it's not the last number and add a comma
+        strs+= str; //adding number-words to list
+        if (i < arr.length-1) { //adding a comma if it's not the last number
             strs+= ",";
         }
     }
