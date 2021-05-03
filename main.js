@@ -1,14 +1,11 @@
 function stringArray(arr) {
     let strs = '';
     for(let i = 0; i < arr.length; i++) {
-        
-        let s = arr[i]+'';
-        //let digits = s.split(' ');
+        let s = arr[i]+''; //making number a string
         let str = '';
         for(let j = 0; j < s.length; j++) {
             let dig = '';
-            //return s.substring(j,j+1);
-            switch(s.substring(j,j+1)) {
+            switch(s.substring(j,j+1)) { //converting digit to word
                 case "0":
                     dig = "Zero";
                     break;
@@ -43,16 +40,10 @@ function stringArray(arr) {
                     dig = "nonumber";
                     break;
             }
-            //**Problem is here */
-            //return dig;
-            //console.log(dig);
-            str+=dig;
-            console.log(str);
+            str+=dig; //adding each digit to the number-word
         }
-        //return str;
-        //console.log(str);
-        strs+= str;
-        if (i < arr.length-1) {
+        strs+= str; //adding number-words to list
+        if (i < arr.length-1) { //adding a comma if it's not the last number
             strs+= ",";
         }
     }
