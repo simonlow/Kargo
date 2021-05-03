@@ -4,11 +4,11 @@
   "description": "",
   "main": "stringArray.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": " test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simonlow/Kargo.git"
+    "url": "git+https://github.com/simonlow/kg_simonlow_2023"
   },
   "author": "",
   "license": "ISC",
